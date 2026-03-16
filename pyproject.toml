@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pysorb"
+version = "0.1.0"
+description = "A Python package for adsorption modelling"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+  { name = "Hesam" }
+]
+keywords = ["adsorption", "sorption", "isotherm", "breakthrough", "simulation"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Intended Audience :: Science/Research",
+  "Topic :: Scientific/Engineering"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["pysorb*"]

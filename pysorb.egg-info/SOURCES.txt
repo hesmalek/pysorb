@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+pysorb/__init__.py
+pysorb/core.py
+pysorb.egg-info/PKG-INFO
+pysorb.egg-info/SOURCES.txt
+pysorb.egg-info/dependency_links.txt
+pysorb.egg-info/top_level.txt
+tests/test.py

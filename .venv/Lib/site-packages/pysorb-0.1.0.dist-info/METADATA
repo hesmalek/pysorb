@@ -1,0 +1,25 @@
+Metadata-Version: 2.4
+Name: pysorb
+Version: 0.1.0
+Summary: A Python package for adsorption modelling
+Author: Hesam
+License: MIT
+Keywords: adsorption,sorption,isotherm,breakthrough,simulation
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: license-file
+
+# pysorb
+
+A Python package for adsorption modelling.
+
+## Install
+
+```bash
+pip install pysorb
