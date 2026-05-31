@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pysorb"
-version = "0.2.0"
+version = "0.2.1"
 description = "Python solvers for adsorption isotherm fitting, mixture prediction, breakthrough simulation, Crank diffusion, and ZLC modelling."
 readme = "README.md"
 license = "MIT"
