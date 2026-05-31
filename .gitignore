@@ -15,9 +15,11 @@ env/
 
 # Test and tooling caches
 .pytest_cache/
+pytest-cache-files-*/
 .mypy_cache/
 .ruff_cache/
 .uv-cache/
+.tmp-build/
 .coverage
 htmlcov/
 
