@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use pysorb, please cite it using the metadata from this file."
+title: "pysorb: A Python Library and GUI for Adsorption Modelling"
+version: 0.2.0
+date-released: 2026-05-31
+authors:
+  - family-names: Maleki
+    given-names: Hesam
+    email: h.maleki.che@gmail.com
+repository-code: "https://github.com/hesmalek/pysorb"
+license: MIT

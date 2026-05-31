@@ -1,0 +1,20 @@
+{
+  "title": "pysorb: A Python Library and GUI for Adsorption Modelling",
+  "creators": [
+    {
+      "name": "Maleki, Hesam"
+    }
+  ],
+  "description": "Python solvers for adsorption isotherm fitting, mixture prediction, breakthrough simulation, Crank diffusion, and ZLC modelling.",
+  "license": "MIT",
+  "keywords": [
+    "adsorption",
+    "isotherm fitting",
+    "IAST",
+    "breakthrough simulation",
+    "Crank diffusion",
+    "zero length column",
+    "ZLC"
+  ],
+  "upload_type": "software"
+}
