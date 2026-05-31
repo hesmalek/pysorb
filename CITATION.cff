@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use pysorb, please cite it using the metadata from this file."
 title: "pysorb: A Python Library and GUI for Adsorption Modelling"
-version: 0.2.1
+version: 0.2.2
 date-released: 2026-05-31
 doi: 10.5281/zenodo.20478633
 authors:

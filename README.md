@@ -18,7 +18,7 @@ The package contains five solver areas:
 - `pysorb.crank` for Crank diffusion uptake calculations.
 - `pysorb.zlc` for zero length column simulations.
 
-The current package release is `0.2.1`; version `0.1.0` was used as an initial PyPI test release.
+The current package release is `0.2.2`; version `0.1.0` was used as an initial PyPI test release.
 
 ## Citation
 
