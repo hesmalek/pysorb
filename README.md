@@ -22,8 +22,9 @@ The current package release is `0.2.1`; version `0.1.0` was used as an initial P
 
 ## Citation
 
-Citation metadata is provided in `CITATION.cff`. An archived release DOI will
-be added after Zenodo processes the GitHub release.
+Citation metadata is provided in `CITATION.cff`.
+
+Archived release DOI: [10.5281/zenodo.20478633](https://doi.org/10.5281/zenodo.20478633)
 
 ## Installation
 
