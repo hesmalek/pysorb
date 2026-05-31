@@ -1,0 +1,52 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pysorb"
+version = "0.2.0"
+description = "Python solvers for adsorption isotherm fitting, mixture prediction, breakthrough simulation, Crank diffusion, and ZLC modelling."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+authors = [
+  { name = "Hesam Maleki" }
+]
+keywords = [
+  "adsorption",
+  "isotherm fitting",
+  "IAST",
+  "breakthrough simulation",
+  "Crank diffusion",
+  "zero length column",
+  "ZLC",
+]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Scientific/Engineering",
+]
+dependencies = [
+  "numpy>=1.24,<3",
+  "scipy>=1.10,<2",
+  "numba>=0.59,<1",
+]
+
+[project.optional-dependencies]
+gui = [
+  "matplotlib>=3.7,<4",
+  "openpyxl>=3.1,<4",
+]
+dev = [
+  "build>=1.2",
+  "twine>=5",
+  "pytest>=8",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
