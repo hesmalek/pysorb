@@ -1,0 +1,90 @@
+{
+  "method": "IAST",
+  "temperature_mode": "Single",
+  "single_temperature": "298.15",
+  "use_tref": "No",
+  "tref": "298.15",
+  "heat_of_adsorption_unit": "J/mol",
+  "components": [
+    {
+      "name": "Comp 1",
+      "sites": [
+        {
+          "model": "Langmuir",
+          "params": [
+            "1.0",
+            "1.0"
+          ]
+        },
+        {
+          "model": "Langmuir",
+          "params": [
+            "2.0",
+            "0.5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Comp 2",
+      "sites": [
+        {
+          "model": "Linear",
+          "params": [
+            "1.5"
+          ]
+        },
+        {
+          "model": "Sips",
+          "params": [
+            "1.5",
+            "1.0",
+            "0.5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Comp 3",
+      "sites": [
+        {
+          "model": "Freundlich",
+          "params": [
+            "2.0",
+            "0.5"
+          ]
+        },
+        {
+          "model": "Toth",
+          "params": [
+            "2.0",
+            "1.0",
+            "0.5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Comp 4",
+      "sites": [
+        {
+          "model": "Quadratic",
+          "params": [
+            "2.5",
+            "1.0",
+            "0.5"
+          ]
+        },
+        {
+          "model": "Redlich-Peterson",
+          "params": [
+            "2.5",
+            "1.0",
+            "0.6"
+          ]
+        }
+      ]
+    }
+  ],
+  "input_rows": "P_Comp 1\tP_Comp 2\tP_Comp 3\tP_Comp 4\n0.25\t0.25\t0.25\t0.25"
+}

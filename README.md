@@ -38,6 +38,19 @@ For local development from this repository:
 pip install -e .
 ```
 
+## Examples and GUI
+
+Supplementary examples are available in `Examples/`:
+
+- `Examples/notebooks/` contains a basic Jupyter notebook for scripted use.
+- `Examples/sessions/` contains saved GUI/session input examples.
+- `Examples/gui_executable/` describes the standalone Windows GUI executable.
+
+The Windows GUI executable is distributed as a GitHub release asset rather than
+inside the PyPI package or git source tree. This keeps the installable package
+small while still making the GUI available for users who prefer a standalone
+application.
+
 ## Basic Usage
 
 ```python

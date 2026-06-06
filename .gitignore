@@ -8,6 +8,10 @@ build/
 dist/
 *.egg-info/
 
+# Large GUI release assets belong on GitHub Releases, not in git history
+Examples/gui_executable/*.exe
+Examples/gui_executable/*.zip
+
 # Virtual environments
 .venv/
 venv/

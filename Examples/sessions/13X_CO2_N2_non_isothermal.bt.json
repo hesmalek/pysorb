@@ -1,0 +1,81 @@
+{
+  "file_type": "pysorb_bt_gui_model",
+  "version": 1,
+  "scalar_inputs": {
+    "process.Flow_in": "1200",
+    "process.T0": "293.15",
+    "process.T_in": "293.15",
+    "process.T_amb": "293.15",
+    "process.P_amb": "1.01325",
+    "process.P_out": "1.1",
+    "process.mu": "1.75e-05",
+    "bed.L": "0.12",
+    "bed.dia_in": "0.01",
+    "bed.eps_b": "0.5",
+    "pellet.dia_p": "0.001",
+    "pellet.rho_s": "1100",
+    "pellet.Cp_s": "900",
+    "wall.rho_w": "7850.0",
+    "wall.Cp_w": "420.0",
+    "wall.w_w": "0.001",
+    "transport.Dm": "1.46e-05",
+    "transport.DL": "0.0001",
+    "heat_transfer.h_in": "60.0",
+    "heat_transfer.h_out": "9.0",
+    "heat_transfer.kz": "0.1",
+    "heat_transfer.kw": "16.0",
+    "domain.t_end": "300",
+    "domain.N": "50",
+    "domain.dt": "0.1",
+    "domain.dt_min": "0.0001",
+    "domain.dt_max": "3",
+    "domain.tol_err": "0.001",
+    "domain.max_steps": "",
+    "solver.newton_tol": "0.002",
+    "solver.newton_max_iter": "10",
+    "solver.newton_delta": "1e-06",
+    "solver.newton_alpha": "1",
+    "solver.newton_min_alpha": "1e-06",
+    "solver.newton_line_search_max": "16",
+    "solver.startup_dt_min": "0.001",
+    "solver.newton_retry_max_iter": "25",
+    "solver.max_rejected_steps": "5000"
+  },
+  "dl_model": "Gunn",
+  "method": "ext",
+  "use_tref": "No",
+  "tref": "298.15",
+  "component_count": "2",
+  "component_conditions": "no\tname\ty_in\tinitial_y\tCp_gas[J/mol/K]\tMW[kg/mol]\n1\tCO2\t0.15\t1e-12\t37.23\t0.044\n2\tN2\t0.85\t1.0\t29.17\t0.028",
+  "kinetics": "no\tname\tldf[1/s]\td_h_ads[J/mol]\n1\tCO2\t0.13\t-42000.0\n2\tN2\t6.59\t-30555.0",
+  "isotherms": [
+    [
+      [
+        "Langmuir",
+        2.08,
+        3.52e-06,
+        -45793.0
+      ],
+      [
+        "Langmuir",
+        3.03,
+        1.32e-06,
+        -37988.0
+      ]
+    ],
+    [
+      [
+        "Langmuir",
+        2.08,
+        2.9e-07,
+        -30555.0
+      ],
+      [
+        "Langmuir",
+        3.03,
+        2.9e-07,
+        -30555.0
+      ]
+    ]
+  ]
+}

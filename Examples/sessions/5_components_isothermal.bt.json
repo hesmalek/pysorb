@@ -1,0 +1,93 @@
+{
+  "file_type": "pysorb_bt_gui_model",
+  "version": 1,
+  "scalar_inputs": {
+    "process.Flow_in": "200",
+    "process.T0": "293.15",
+    "process.T_in": "293.15",
+    "process.T_amb": "293.15",
+    "process.P_amb": "1.01325",
+    "process.P_out": "1.01325",
+    "process.mu": "1.75e-05",
+    "bed.L": "0.15",
+    "bed.dia_in": "0.01",
+    "bed.eps_b": "0.5",
+    "pellet.dia_p": "0.001",
+    "pellet.rho_s": "1100",
+    "pellet.Cp_s": "900",
+    "wall.rho_w": "7850.0",
+    "wall.Cp_w": "420.0",
+    "wall.w_w": "0.001",
+    "transport.Dm": "1.46e-05",
+    "transport.DL": "0.0001",
+    "heat_transfer.h_in": "60.0",
+    "heat_transfer.h_out": "9.0",
+    "heat_transfer.kz": "0.1",
+    "heat_transfer.kw": "16.0",
+    "domain.t_end": "200",
+    "domain.N": "40",
+    "domain.dt": "0.1",
+    "domain.dt_min": "0.0001",
+    "domain.dt_max": "1",
+    "domain.tol_err": "0.001",
+    "domain.max_steps": "",
+    "solver.newton_tol": "0.002",
+    "solver.newton_max_iter": "10",
+    "solver.newton_delta": "1e-06",
+    "solver.newton_alpha": "1",
+    "solver.newton_min_alpha": "1e-06",
+    "solver.newton_line_search_max": "16",
+    "solver.startup_dt_min": "0.001",
+    "solver.newton_retry_max_iter": "25",
+    "solver.max_rejected_steps": "5000"
+  },
+  "dl_model": "Gunn",
+  "method": "iast",
+  "use_tref": "No",
+  "tref": "298.15",
+  "component_count": "5",
+  "component_conditions": "no\tname\ty_in\tinitial_y\tCp_gas[J/mol/K]\tMW[kg/mol]\n1\tComp_1\t0.2\t1e-10\t29.17\t0.028\n2\tComp_2\t0.2\t1e-10\t29.17\t0.028\n3\tComp_3\t0.2\t1e-10\t29.17\t0.028\n4\tComp_4\t0.2\t1e-10\t29.17\t0.028\n5\tComp_5\t0.2\t1.0\t29.17\t0.028",
+  "kinetics": "no\tname\tldf[1/s]\td_h_ads[J/mol]\n1\tComp_1\t1.0\t0.0\n2\tComp_2\t1.0\t0.0\n3\tComp_3\t1.0\t0.0\n4\tComp_4\t1.0\t0.0\n5\tComp_5\t1.0\t0.0",
+  "isotherms": [
+    [
+      [
+        "Langmuir",
+        0.25,
+        1.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        "Langmuir",
+        0.5,
+        1.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        "Langmuir",
+        1.0,
+        1.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        "Langmuir",
+        2.0,
+        1.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        "Langmuir",
+        1.0,
+        1e-05,
+        0.0
+      ]
+    ]
+  ]
+}
