@@ -2,7 +2,14 @@
 
 `pysorb` is a Python library for adsorption modelling across equilibrium and dynamic kinetic workflows. It connects reusable numerical solvers for scripted scientific computing with GUI-facing adsorption workflows.
 
-The current package supports pure-component isotherm fitting, multicomponent mixture prediction, fixed-bed breakthrough simulation, Crank diffusion uptake analysis, and zero length column (ZLC) modelling. The numerical routines use NumPy and SciPy, with Numba-compatible kernels used in the mixture and breakthrough solvers for repeated numerical evaluation.
+### Features
+
+* Pure-component isotherm fitting and isosteric heat analysis
+* Unary, IAST, and extended mixture prediction
+* Non-isothermal fixed-bed breakthrough simulation
+* Crank diffusion and zero-length column (ZLC) kinetic modelling
+* Integrated graphical user interface (GUI)
+* Session save/load functionality
 
 The package contains five solver areas:
 
@@ -16,9 +23,11 @@ The current package release is `0.2.2`; version `0.1.0` was used as an initial P
 
 ## Citation
 
-Citation metadata is provided in `CITATION.cff`.
-
 Archived release DOI: https://doi.org/10.5281/zenodo.20480051
+
+If you use pysorb in academic work, please cite:
+
+Maleki, H. (2026). pysorb: A Python Library and GUI for Adsorption Modelling. Zenodo. https://doi.org/10.5281/zenodo.20480051
 
 ## Installation
 
