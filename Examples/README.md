@@ -1,22 +1,16 @@
-# PySorb Examples
+# pysorb Examples
 
-This folder contains supplementary examples for PySorb 0.2.2.
+This folder contains example notebooks, session files, and supplementary resources for `pysorb`.
 
 ## Contents
 
-- `notebooks/`: Jupyter notebook examples for using the Python library.
-- `sessions/`: saved GUI/session input examples.
-- `gui_executable/`: notes for the standalone Windows GUI executable.
+* **notebooks/**: Jupyter notebook examples for common pysorb workflows.
+* **sessions/**: Example GUI session files.
 
-The standalone Windows GUI executable is not committed to the repository because
-it is a large binary file. Download it from the GitHub release assets for
-PySorb 0.2.2.
+## Windows GUI
 
-Suggested release asset name:
+The Windows GUI executable is not stored in this repository because it is a large binary file. Download it from the GitHub Releases page.
 
-```text
-pysorb-0.2.2-windows-gui.zip
-```
+## Notes
 
-The library code is unchanged from PySorb 0.2.2; these files are supplementary
-examples and convenience assets.
+These examples provide starting points for adsorption modelling, data fitting, mixture calculations, diffusion analysis, and breakthrough simulations.
